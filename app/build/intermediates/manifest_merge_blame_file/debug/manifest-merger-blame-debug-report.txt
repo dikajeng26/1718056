@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tugas1dosen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:5:5-36:19
+12        android:allowBackup="true"
+12-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\owner\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="Mobile Programming"
+16-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:8:9-43
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.tugas1dosen.kontak"
+22-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:13:13-35
+23            android:label="Kontak Saya"
+23-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:14:13-40
+24            android:parentActivityName="com.example.tugas1dosen.MainActivity" >
+24-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:15:13-55
+25            <meta-data
+25-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:16:13-19:25
+26                android:name="android.support.PARENT_ACTIVITY"
+26-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:17:17-63
+27                android:value=".MainActivity" >
+27-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:18:17-46
+28            </meta-data>
+29        </activity>
+30        <activity
+30-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:21:9-28:20
+31            android:name="com.example.tugas1dosen.biodata"
+31-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:22:13-36
+32            android:label="Biodata Diri"
+32-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:23:13-41
+33            android:parentActivityName="com.example.tugas1dosen.MainActivity" >
+33-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:24:13-55
+34            <meta-data
+34-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:16:13-19:25
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:17:17-63
+36                android:value=".MainActivity" />
+36-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:18:17-46
+37        </activity>
+38        <activity android:name="com.example.tugas1dosen.MainActivity" >
+38-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:29:9-35:20
+38-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:29:19-47
+39            <intent-filter>
+39-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:31:17-69
+40-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:33:17-77
+42-->D:\Kampus\SEMESTER 5\KELAS\Mobile Programming\Tugas\Tugas1Ajeng\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45    </application>
+46
+47</manifest>
